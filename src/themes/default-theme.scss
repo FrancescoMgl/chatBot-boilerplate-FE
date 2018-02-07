@@ -1,0 +1,12 @@
+$base-chat-container: #f0ece0;
+$base-chat-container-font: #000;
+$base-chat-message-answer: #fff;
+$base-chat-message-question: #e1ffc7;
+$base-chat-message-border: #d4d1d1;
+$base-chat-input-container: #fff;
+$base-chat-input-font: black;
+$base-chat-input-border: #d4d1d1;
+$base-chat-input-btn: blue;
+$base-chat-input-btn-disabled: #555;
+
+@import '../containers/Chat/chat';

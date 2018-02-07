@@ -1,0 +1,38 @@
+{
+  "root": true,
+  "env": {
+    "es6": true
+  },
+  "extends": [
+    "standard",
+    "standard-react"
+  ],
+  "plugins": [
+    "standard",
+    "react"
+  ],
+  "globals": {
+    "fetch": false
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "semi": [
+      "off",
+      "never"
+    ],
+    "space-before-function-paren": [
+      "warn",
+      "never"
+    ],
+    "no-trailing-spaces": [
+      "error",
+      {
+        "skipBlankLines": true
+      }
+    ],
+    "react/jsx-space-before-closing": [
+      "warn",
+      "always"
+    ]
+  }
+}
